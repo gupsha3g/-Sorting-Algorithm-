@@ -89,7 +89,10 @@ cv2.imshow("Image with Circles and Counts", captured_frame)
 cv2.imshow("red Counts", red_mask)
 cv2.imshow("orange Counts", orange_mask)
 cv2.imshow("green Counts", green_mask)
-print(f'RED_ON : {red_count}, GREEN_ON: {green_count}, ORANGE_ON{orange_count}')
+print(f'RED_ON : {red_count}, GREEN_ON: {green_count}, ORANGE_ON{orange_count})
+number = [red_count, green_count, orange_count]
+Total = sum(number)
+print(f"Toatl number of ON LED: {Total}")
 # Wait for a key press and then close the window
 cv2.waitKey(0)
 cv2.destroyAllWindows()
