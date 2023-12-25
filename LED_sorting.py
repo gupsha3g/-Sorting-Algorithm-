@@ -1,5 +1,4 @@
-"""An algorithm to sort faulty LED in real-time by counting no. of ON LED on the basis of its status with the help
-of Universal robot UR5e"""
+"""An algorithm to sort count LED in real-time by counting no. of ON LED on the basis of its status"""
 import cv2
 import numpy as np
 
